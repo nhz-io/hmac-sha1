@@ -9,6 +9,6 @@ deploy:
       tags: true
 
   - provider: script
-    script: npm publish --access public
+    script: npm install && npm publish --access public
     on:
       tags: true
