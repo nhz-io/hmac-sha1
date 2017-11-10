@@ -8,6 +8,7 @@
     "test": "cake lint && coffee README.litcoffee",
     "lint": "cake lint",
     "build": "cake lint && cake build",
+    "prepublish": "npm run build",
     "prepack": "mv README.litcoffee README.md",
     "postpack": "mv README.md README.litcoffee",
     "pre-push": "npm test"
