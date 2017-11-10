@@ -45,7 +45,7 @@ Test full args
 
     console.log 'pass'
 
-## Version 1.0.0
+## Version 1.0.1
 
 ## License [MIT](LICENSE)
 
